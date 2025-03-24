@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MT25QL512ABB8ESF-0AAT
+D NOR Flash Serial-SPI 3V/3.3V 512M-bit 64M/32M/16M x 1/2-bit/4-bit 6ns Automotive 16-Pin SOP-II
+K
+F https://media-www.micron.com/-/media/client/global/documents/products/data-sheet/nor-flash/serial-nor/mt25q/die-rev-b/mt25q_qlkt_l_512_abb_0.pdf?rev=0ef0faa5f7b645d7bc11c30bfd27505b
+$ENDCMP
+#
+#End Doc Library

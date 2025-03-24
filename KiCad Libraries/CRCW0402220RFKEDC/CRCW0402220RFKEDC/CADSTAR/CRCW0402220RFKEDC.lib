@@ -1,0 +1,16 @@
+.CRCW0402220RFKEDC :1 ;Thick Film Resistors - SMD 1/16watt 220ohms 1% Commercial Use
+RESC1005X35N
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN CRCW0402220RFKEDC
+~!Mouser Part Number (71-CRCW0402220RFKEDC)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0402220RFKEDC?qs=E3Y5ESvWgWMAZ9jx9FE2wg%3D%3D)
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (CRCW0402220RFKEDC)
+~!Link Datasheet (http://www.vishay.com/docs/28773/crcwce3.pdf)
+~!Height (0.35mm)
+~!3D_Model (CRCW0402220RFKEDC)
+CRCW0402220RFKEDC
+1.1!U 2.1!U 

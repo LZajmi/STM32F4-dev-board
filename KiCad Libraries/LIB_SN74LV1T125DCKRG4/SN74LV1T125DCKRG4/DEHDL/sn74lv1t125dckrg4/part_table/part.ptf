@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SN74LV1T125DCKRG4'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "SN74LV1T125DCKRG4" (!) = "", "SOT65P210X110-5N", "SOT23 (5-Pin)", "595-74LV1T125DCKRG4", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LV1T125DCKRG4?qs=qSfuJ%252Bfl%2Fd6epiZsEhD6Mg%3D%3D", "Single Power Supply, Single BUFFER GATE w/ 3-State Output (active low enable)", "http://www.ti.com/lit/gpn/sn74lv1t125", "1.1 mm"
+END_PART
+
+END.

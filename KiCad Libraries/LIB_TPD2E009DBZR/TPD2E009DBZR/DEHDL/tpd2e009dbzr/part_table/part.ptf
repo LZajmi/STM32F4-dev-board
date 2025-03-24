@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPD2E009DBZR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TPD2E009DBZR" (!) = "", "SOT95P237X112-3N", "SOT23 (3-Pin)", "595-TPD2E009DBZR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD2E009DBZR?qs=XGzIaZb%2FFYIsL3UFh35JpQ%3D%3D", "2-Channel ESD Protection Array for High-Speed Data Interfaces ", "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-7/sf-000145380.pdf", "1.12 mm"
+END_PART
+
+END.

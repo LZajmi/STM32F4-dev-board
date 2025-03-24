@@ -1,0 +1,16 @@
+.XFL4015-471MEC :1 ;Fixed Inductors 0.47uH 20% 11.2A 8.36mOhms AEC-Q200
+XFL4012
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN XFL4015-471MEC
+~!Mouser Part Number (994-XFL4015-471MEC)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Coilcraft/XFL4015-471MEC?qs=zCSbvcPd3pYzCOJSVbeMnw%3D%3D)
+~!Manufacturer_Name (COILCRAFT)
+~!Manufacturer_Part_Number (XFL4015-471MEC)
+~!Link Datasheet (https://www.coilcraft.com/pdfs/xfl4015.pdf)
+~!Height (-)
+~!3D_Model (XFL4015-471MEC)
+XFL4015-471MEC
+1.1!U 2.1!U 

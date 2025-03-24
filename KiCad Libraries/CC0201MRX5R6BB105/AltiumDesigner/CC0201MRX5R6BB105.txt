@@ -1,0 +1,159 @@
+# Created by Ultra Librarian 8.3.353 Copyright © 1999-2024
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "CAP_CC0201_YAG")
+Pad (Name "1") (Location -12.5, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 13) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 12.5, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 16, 13) (Shape Rectangular) (Layer Top)
+EndPad
+Polygon (PointCount 4) (Type KeepOut) (Layer KeepOutLayer) 
+Point (-2.5, 6.5)
+Point (2.5, 6.5)
+Point (2.5, -6.5)
+Point (-2.5, -6.5)
+EndPolygon
+Line (Width 6) (Start -30.5, -16.5) (End -30.5, 16.5) (Layer Mechanical15) 
+Line (Width 6) (Start -30.5, 16.5) (End 30.5, 16.5) (Layer Mechanical15) 
+Line (Width 6) (Start 30.5, 16.5) (End 30.5, -16.5) (Layer Mechanical15) 
+Line (Width 6) (Start 30.5, -16.5) (End -30.5, -16.5) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-30.5, -16.5)
+Point (-30.5, 16.5)
+Point (30.5, 16.5)
+Point (30.5, -16.5)
+EndPolygon
+Polygon (PointCount 4) (Type KeepOut) (Layer TopLayer) 
+Point (-2.5, 4.5)
+Point (2.5, 4.5)
+Point (2.5, -4.5)
+Point (-2.5, -4.5)
+EndPolygon
+Line (Width 1) (Start -4.5, -6.5) (End -4.5, 6.5) (Layer Mechanical13) 
+Line (Width 1) (Start -4.5, 6.5) (End -12.5, 6.5) (Layer Mechanical13) 
+Line (Width 1) (Start -12.5, 6.5) (End -12.5, -6.5) (Layer Mechanical13) 
+Line (Width 1) (Start -12.5, -6.5) (End -4.5, -6.5) (Layer Mechanical13) 
+Line (Width 1) (Start 4.5, 6.5) (End 4.5, -6.5) (Layer Mechanical13) 
+Line (Width 1) (Start 4.5, -6.5) (End 12.5, -6.5) (Layer Mechanical13) 
+Line (Width 1) (Start 12.5, -6.5) (End 12.5, 6.5) (Layer Mechanical13) 
+Line (Width 1) (Start 12.5, 6.5) (End 4.5, 6.5) (Layer Mechanical13) 
+Line (Width 1) (Start -12.5, -6.5) (End 12.5, -6.5) (Layer Mechanical13) 
+Line (Width 1) (Start 12.5, -6.5) (End 12.5, 6.5) (Layer Mechanical13) 
+Line (Width 1) (Start 12.5, 6.5) (End -12.5, 6.5) (Layer Mechanical13) 
+Line (Width 1) (Start -12.5, 6.5) (End -12.5, -6.5) (Layer Mechanical13) 
+Arc (Width 0) (Radius 0) (Location -7.5, 0) (StartAngle 0) (EndAngle 360) (Layer Mechanical13) 
+Step (Name CAP_CC0201_YAG.step)
+EndFootprint
+
+Footprint (Name "CAP_CC0201_YAG-M")
+Pad (Name "1") (Location -14.5, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 20, 15) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 14.5, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 20, 15) (Shape Rectangular) (Layer Top)
+EndPad
+Polygon (PointCount 4) (Type KeepOut) (Layer KeepOutLayer) 
+Point (-2.5, 6.5)
+Point (2.5, 6.5)
+Point (2.5, -6.5)
+Point (-2.5, -6.5)
+EndPolygon
+Line (Width 6) (Start -44.5, -27.5) (End -44.5, 27.5) (Layer Mechanical15) 
+Line (Width 6) (Start -44.5, 27.5) (End 44.5, 27.5) (Layer Mechanical15) 
+Line (Width 6) (Start 44.5, 27.5) (End 44.5, -27.5) (Layer Mechanical15) 
+Line (Width 6) (Start 44.5, -27.5) (End -44.5, -27.5) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-44.5, -27.5)
+Point (-44.5, 27.5)
+Point (44.5, 27.5)
+Point (44.5, -27.5)
+EndPolygon
+Polygon (PointCount 4) (Type KeepOut) (Layer TopLayer) 
+Point (-2.5, 4.5)
+Point (2.5, 4.5)
+Point (2.5, -4.5)
+Point (-2.5, -4.5)
+EndPolygon
+Arc (Width 6) (Radius 3) (Location -57.5, 0) (StartAngle 0) (EndAngle 360) (Layer TopOverlay) 
+Line (Width 1) (Start -4.5, -6.5) (End -4.5, 6.5) (Layer Mechanical13) 
+Line (Width 1) (Start -4.5, 6.5) (End -12.5, 6.5) (Layer Mechanical13) 
+Line (Width 1) (Start -12.5, 6.5) (End -12.5, -6.5) (Layer Mechanical13) 
+Line (Width 1) (Start -12.5, -6.5) (End -4.5, -6.5) (Layer Mechanical13) 
+Line (Width 1) (Start 4.5, 6.5) (End 4.5, -6.5) (Layer Mechanical13) 
+Line (Width 1) (Start 4.5, -6.5) (End 12.5, -6.5) (Layer Mechanical13) 
+Line (Width 1) (Start 12.5, -6.5) (End 12.5, 6.5) (Layer Mechanical13) 
+Line (Width 1) (Start 12.5, 6.5) (End 4.5, 6.5) (Layer Mechanical13) 
+Line (Width 1) (Start -12.5, -6.5) (End 12.5, -6.5) (Layer Mechanical13) 
+Line (Width 1) (Start 12.5, -6.5) (End 12.5, 6.5) (Layer Mechanical13) 
+Line (Width 1) (Start 12.5, 6.5) (End -12.5, 6.5) (Layer Mechanical13) 
+Line (Width 1) (Start -12.5, 6.5) (End -12.5, -6.5) (Layer Mechanical13) 
+Arc (Width 0) (Radius 3) (Location -9.5, 0) (StartAngle 0) (EndAngle 360) (Layer Mechanical13) 
+Step (Name CAP_CC0201_YAG.step)
+EndFootprint
+
+Footprint (Name "CAP_CC0201_YAG-L")
+Pad (Name "1") (Location -10.5, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 12, 11) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 10.5, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 12, 11) (Shape Rectangular) (Layer Top)
+EndPad
+Polygon (PointCount 4) (Type KeepOut) (Layer KeepOutLayer) 
+Point (-2.5, 6.5)
+Point (2.5, 6.5)
+Point (2.5, -6.5)
+Point (-2.5, -6.5)
+EndPolygon
+Line (Width 6) (Start -20.5, -9.5) (End -20.5, 9.5) (Layer Mechanical15) 
+Line (Width 6) (Start -20.5, 9.5) (End 20.5, 9.5) (Layer Mechanical15) 
+Line (Width 6) (Start 20.5, 9.5) (End 20.5, -9.5) (Layer Mechanical15) 
+Line (Width 6) (Start 20.5, -9.5) (End -20.5, -9.5) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-20.5, -9.5)
+Point (-20.5, 9.5)
+Point (20.5, 9.5)
+Point (20.5, -9.5)
+EndPolygon
+Polygon (PointCount 4) (Type KeepOut) (Layer TopLayer) 
+Point (-2.5, 4.5)
+Point (2.5, 4.5)
+Point (2.5, -4.5)
+Point (-2.5, -4.5)
+EndPolygon
+Arc (Width 6) (Radius 3) (Location -49.5, 0) (StartAngle 0) (EndAngle 360) (Layer TopOverlay) 
+Line (Width 1) (Start -4.5, -6.5) (End -4.5, 6.5) (Layer Mechanical13) 
+Line (Width 1) (Start -4.5, 6.5) (End -12.5, 6.5) (Layer Mechanical13) 
+Line (Width 1) (Start -12.5, 6.5) (End -12.5, -6.5) (Layer Mechanical13) 
+Line (Width 1) (Start -12.5, -6.5) (End -4.5, -6.5) (Layer Mechanical13) 
+Line (Width 1) (Start 4.5, 6.5) (End 4.5, -6.5) (Layer Mechanical13) 
+Line (Width 1) (Start 4.5, -6.5) (End 12.5, -6.5) (Layer Mechanical13) 
+Line (Width 1) (Start 12.5, -6.5) (End 12.5, 6.5) (Layer Mechanical13) 
+Line (Width 1) (Start 12.5, 6.5) (End 4.5, 6.5) (Layer Mechanical13) 
+Line (Width 1) (Start -12.5, -6.5) (End 12.5, -6.5) (Layer Mechanical13) 
+Line (Width 1) (Start 12.5, -6.5) (End 12.5, 6.5) (Layer Mechanical13) 
+Line (Width 1) (Start 12.5, 6.5) (End -12.5, 6.5) (Layer Mechanical13) 
+Line (Width 1) (Start -12.5, 6.5) (End -12.5, -6.5) (Layer Mechanical13) 
+Arc (Width 0) (Radius 3) (Location -5.5, 0) (StartAngle 0) (EndAngle 360) (Layer Mechanical13) 
+Step (Name CAP_CC0201_YAG.step)
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "CC0201MRX5R6BB105") (PartCount 1) (DesPrefix "C?")
+Pin (Location 200, 0) (Rotation 0) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "2") (Name Hidden "2") (PinSwap 1) (PartSwap 1) (PinSeq 2) (Part 1)
+Pin (Location 100, 0) (Rotation 180) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "1") (Name Hidden "1") (PinSwap 1) (PartSwap 1) (PinSeq 1) (Part 1)
+Line (Width 8) (Start 137, -75) (End 137, 75) (Part 1)
+Line (Width 8) (Start 162, -75) (End 162, 75) (Part 1)
+Line (Width 8) (Start 162, 0) (End 200, 0) (Part 1)
+Line (Width 8) (Start 100, 0) (End 137, 0) (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Yageo") (Part 1)
+Parameter (Name "Type") (Location 150, -300) (Height 137) (Rotation 0) (Justification Center) (Value "") (Part 1)
+Parameter (Name "RefDes") (Location 150, 150) (Height 137) (Rotation 0) (Justification Center) (Value "") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Footprint (Name "CAP_CC0201_YAG")
+EndComponent
+EndComponents

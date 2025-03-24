@@ -1,0 +1,9 @@
+Manufacturer=Micron
+PartNumber=MT25QL512ABB8ESF-0AAT
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=16
+Version=1.1
+Released=2021-11-11 10:22:38
+Downloaded=2024-06-12 20:25:22
+3D=Y

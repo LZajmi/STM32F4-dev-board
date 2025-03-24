@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_19699692"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-06-19-04:26:47)
+    (utime 2024-06-19-04:26:47)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "RN73R1ETTP50R0F50")
+)
+
+
+(pinAssign "ECS_19699692"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-06-19-04:26:47)
+    (utime 2024-06-19-04:26:47)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_19699692")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "RN73R1ETTP50R0F50")
+)
+
+
+(part "RN73R1ETTP50R0F50"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-06-19-04:26:47)
+    (utime 2024-06-19-04:26:47)
+    (packageRef "RN73R1ETTP50R0F50")
+    (pinAssignRef "ECS_19699692")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "R")
+    (property "description" "123")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Manufacturer_Name" "KOA Speer")
+    (property "Manufacturer_Part_Number" "RN73R1ETTP50R0F50")
+    (property "Datasheet_Link" "https://media.digikey.com/pdf/Data%20Sheets/KOA%20Speer/RN73R_Type_DS.pdf")
+    (property "compAreaTopHeight" 0.4)
+)
+
+

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPD2E009DBZR
+D 2-Channel ESD Protection Array for High-Speed Data Interfaces 
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-7/sf-000145380.pdf
+$ENDCMP
+#
+#End Doc Library

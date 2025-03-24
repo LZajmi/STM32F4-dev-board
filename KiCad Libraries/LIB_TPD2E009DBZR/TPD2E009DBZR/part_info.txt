@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPD2E009DBZR
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (3-Pin)
+PinCount=3
+Version=2.1
+Released=2015-04-13 16:57:37
+Downloaded=2024-06-16 21:34:54
+3D=Y

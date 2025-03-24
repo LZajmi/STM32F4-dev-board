@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=CRCW0402220RFKEDC
+PartCategory=Resistor
+PackageCategory=Resistor Chip
+PinCount=2
+Version=1.1
+Released=2019-07-24 02:47:13
+Downloaded=2024-07-21 21:18:24
+3D=Y

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RN73R1ETTP50R0F50
+D 123
+K
+F https://media.digikey.com/pdf/Data%20Sheets/KOA%20Speer/RN73R_Type_DS.pdf
+$ENDCMP
+#
+#End Doc Library

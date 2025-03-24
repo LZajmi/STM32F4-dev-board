@@ -1,0 +1,872 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "STM32H750VBT6" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -96.5635 41.1665 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "STM32H750VBT6" (id 1) (at -96.6539 -43.2399 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "STM32H750VBT6:QFP50P1600X1600X160-100N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "STMicroelectronics" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            ARM® Cortex®-M7 STM32H7 Microcontroller IC 32-Bit Single-Core 480MHz 128KB (128K x 8) FLASH 100-LQFP (14x14)\n                        \n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "LQFP-100 STMicroelectronics" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/STM32H750VBT6/STMicroelectronics/view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "IPC 7351B" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "2" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/STM32H750VBT6/STMicroelectronics/view-part/?ref=snap" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "STM32H750VBT6" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "ST MICROELECTRONICS" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "STM32H750VBT6_1_0"
+      (rectangle (start -96.52 -40.64) (end 99.06 40.64)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin power_in line (at 104.14 30.48 180.0) (length 5.08)
+        (name "VBAT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 104.14 -35.56 180.0) (length 5.08)
+        (name "VSS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 104.14 -35.56 180.0) (length 5.08)
+        (name "VSS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "26"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 104.14 -35.56 180.0) (length 5.08)
+        (name "VSS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "49"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 104.14 -35.56 180.0) (length 5.08)
+        (name "VSS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "74"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 104.14 -35.56 180.0) (length 5.08)
+        (name "VSS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "99"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 104.14 33.02 180.0) (length 5.08)
+        (name "VDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 104.14 33.02 180.0) (length 5.08)
+        (name "VDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "27"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 104.14 33.02 180.0) (length 5.08)
+        (name "VDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "50"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 104.14 33.02 180.0) (length 5.08)
+        (name "VDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "75"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 104.14 33.02 180.0) (length 5.08)
+        (name "VDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "100"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -101.6 -27.94 0) (length 5.08)
+        (name "PH0-OSC_IN/EVENTOUT/OSC_IN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -101.6 -30.48 0) (length 5.08)
+        (name "PH1-OSC_OUT/EVENTOUT/OSC_OUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -101.6 22.86 0) (length 5.08)
+        (name "~{RST}"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 104.14 -38.1 180.0) (length 5.08)
+        (name "VSSA"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 104.14 38.1 180.0) (length 5.08)
+        (name "VREF+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "20"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 104.14 35.56 180.0) (length 5.08)
+        (name "VDDA"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "21"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -101.6 15.24 0) (length 5.08)
+        (name "PA0/TIM2_CH1/TIM2_ETR/TIM5_CH1/TIM8_ETR/TIM15_BKIN/USART2_CTS_NSS/UART4_TX/SDMMC2_CMD/SAI2_SD_B/ETH_MII_CRS/EVENTOUT/ADC1_INP16/WKUP0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "22"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -101.6 12.7 0) (length 5.08)
+        (name "PA1/TIM2_CH2/TIM5_CH2/LPTIM3_OUT/TIM15_CH1N/USART2_RTS/UART4_RX/QUADSPI_BK1_IO3/SAI2_MCK_B/ETH_MII_RX_CLK/ETH_RMII_REF_CLK/LCD_R2/EVENTOUT/ADC1_INN16/ADC1_INP17"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -101.6 10.16 0) (length 5.08)
+        (name "PA2/TIM2_CH3/TIM5_CH3/LPTIM4_OUT/TIM15_CH1/USART2_TX/SAI2_SCK_B/ETH_MDIO/MDIOS_MDIO/LCD_R1/EVENTOUT/ADC12_INP14/WKUP1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -101.6 7.62 0) (length 5.08)
+        (name "PA3/TIM2_CH4/TIM5_CH4/LPTIM5_OUT/TIM15_CH2/USART2_RX/LCD_B2/OTG_HS_ULPI_D0/ETH_MII_COL/LCD_B5/EVENTOUT/ADC12_INP15"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "25"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -101.6 5.08 0) (length 5.08)
+        (name "PA4/TIM5_ETR/SPI1_NSS/I2S1_WS/SPI3_NSS/I2S3_WS/USART2_CK/SPI6_NSS/OTG_HS_SOF/DCMI_HSYNC/LCD_VSYNC/EVENTOUT/ADC12_INP18/DAC1_OUT1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "28"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -101.6 2.54 0) (length 5.08)
+        (name "PA5/TIM2_CH1/TIM2_ETR/TIM8_CH1N/SPI1_SCK/I2S1_CK/SPI6_SCK/OTG_HS_ULPI_CK/LCD_R4/EVENTOUT/ADC12_INN18/ADC12_INP19/DAC1_OUT2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -101.6 0.0 0) (length 5.08)
+        (name "PA6/TIM1_BKIN/TIM3_CH1/TIM8_BKIN/SPI1_MISO/I2S1_SDI/SPI6_MISO/TIM13_CH1/TIM8_BKIN_COMP12/MDIOS_MDC/TIM1_BKIN_COMP12/DCMI_PIXCLK/LCD_G2/EVENTOUT/ADC12_INP3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "30"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -101.6 -2.54 0) (length 5.08)
+        (name "PA7/TIM1_CH1N/TIM3_CH2/TIM8_CH1N/SPI1_MOSI/I2S1_SDO/SPI6_MOSI/TIM14_CH1/ETH_MII_RX_DV/ETH_RMII_CRS_DV/FMC_SDNWE/EVENTOUT/ADC12_INN3/ADC12_INP7/OPAMP1_VINM"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "31"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 104.14 27.94 180.0) (length 5.08)
+        (name "VCAP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "48"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 104.14 27.94 180.0) (length 5.08)
+        (name "VCAP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "73"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -101.6 -5.08 0) (length 5.08)
+        (name "PA8/MCO1/TIM1_CH1/HRTIM_CHB2/TIM8_BKIN2/I2C3_SCL/USART1_CK/OTG_FS_SOF/UART7_RX/TIM8_BKIN2_COMP12/LCD_B3/LCD_R6/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "67"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -101.6 -7.62 0) (length 5.08)
+        (name "PA9/TIM1_CH2/HRTIM_CHC1/LPUART1_TX/I2C3_SMBA/SPI2_SCK/I2S2_CK/USART1_TX/FDCAN1_RXFD_MODE/ETH_TX_ER/DCMI_D0/LCD_R5/EVENTOUT/OTG_FS_VBUS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "68"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -101.6 -10.16 0) (length 5.08)
+        (name "PA10/TIM1_CH3/HRTIM_CHC2/LPUART1_RX/USART1_RX/FDCAN1_TXFD_MODE/OTG_FS_ID/MDIOS_MDIO/LCD_B4/DCMI_D1/LCD_B1/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "69"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -101.6 -12.7 0) (length 5.08)
+        (name "PA11/TIM1_CH4/HRTIM_CHD1/LPUART1_CTS/SPI2_NSS/I2S2_WS/UART4_RX/USART1_CTS_NSS/FDCAN1_RX/OTG_FS_DM/LCD_R4/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "70"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -101.6 -15.24 0) (length 5.08)
+        (name "PA12/TIM1_ETR/HRTIM_CHD2/LPUART1_RTS/SPI2_SCK/I2S2_CK/UART4_TX/USART1_RTS/SAI2_FS_B/FDCAN1_TX/OTG_FS_DP/LCD_R5/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "71"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -101.6 -17.78 0) (length 5.08)
+        (name "PA13/JTMS-SWDIO/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "72"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -101.6 -20.32 0) (length 5.08)
+        (name "PA14/JTCK-SWCLK/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "76"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -101.6 -22.86 0) (length 5.08)
+        (name "PA15/JTDI/TIM2_CH1/TIM2_ETR/HRTIM_FLT1/HDMI_CEC/SPI1_NSS/I2S1_WS/SPI3_NSS/I2S3_WS/SPI6_NSS/UART4_RTS/UART7_TX/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "77"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -101.6 20.32 0) (length 5.08)
+        (name "BOOT0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "94"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "STM32H750VBT6_2_0"
+      (rectangle (start -111.76 -22.86) (end 111.76 20.32)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin bidirectional line (at -116.84 17.78 0) (length 5.08)
+        (name "PB0/TIM1_CH2N/TIM3_CH3/TIM8_CH2N/DFSDM_CKOUT/UART4_CTS/LCD_R3/OTG_HS_ULPI_D1/ETH_MII_RXD2/LCD_G1/EVENTOUT/ADC12_INN5/ADC12_INP9/OPAMP1_VINP/COMP_1_INP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "34"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -116.84 15.24 0) (length 5.08)
+        (name "PB1/TIM1_CH3N/TIM3_CH4/TIM8_CH3N/DFSDM_DATIN1/LCD_R6/OTG_HS_ULPI_D2/ETH_MII_RXD3/LCD_G0/EVENTOUT/ADC12_INP5/COMP_1_INM"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "35"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -116.84 12.7 0) (length 5.08)
+        (name "PB2/SAI1_D1/DFSDM_CKIN1/SAI1_SD_A/SPI3_MOSI/I2S3_SDO/SAI4_SD_A/QUADSPI_CLK/SAI4_D1/ETH_TX_ER/EVENTOUT/COMP_1_INP/RTC_OUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "36"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -116.84 -7.62 0) (length 5.08)
+        (name "PB10/TIM2_CH3/HRTIM_SCOUT/LPTIM2_IN1/I2C2_SCL/SPI2_SCK/I2S2_CK/DFSDM_DATIN7/USART3_TX/QUADSPI_BK1_NCS/OTG_HS_ULPI_D3/ETH_MII_RX_ER/LCD_G4/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "46"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -116.84 -10.16 0) (length 5.08)
+        (name "PB11/TIM2_CH4/HRTIM_SCIN/LPTIM2_ETR/I2C2_SDA/DFSDM_CKIN7/USART3_RX/OTG_HS_ULPI_D4/ETH_MII_TX_EN/ETH_RMII_TX_EN/LCD_G5/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "47"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -116.84 -12.7 0) (length 5.08)
+        (name "PB12/TIM1_BKIN/I2C2_SMBA/SPI2_NSS/I2S2_WS/DFSDM_DATIN1/USART3_CK/FDCAN2_RX/OTG_HS_ULPI_D5/ETH_MII_TXD0/ETH_RMII_TXD0/OTG_HS_ID/TIM1_BKIN_COMP12/UART5_RX/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "51"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -116.84 -15.24 0) (length 5.08)
+        (name "PB13/TIM1_CH1N/LPTIM2_OUT/SPI2_SCK/I2S2_CK/DFSDM_CKIN1/USART3_CTS_NSS/FDCAN2_TX/OTG_HS_ULPI_D6/ETH_MII_TXD1/ETH_RMII_TXD1/UART5_TX/EVENTOUT/OTG_HS_VBUS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "52"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -116.84 -17.78 0) (length 5.08)
+        (name "PB14/TIM1_CH2N/TIM12_CH1/TIM8_CH2N/USART1_TX/SPI2_MISO/I2S2_SDI/DFSDM_DATIN2/USART3_RTS/UART4_RTS/SDMMC2_D0/OTG_HS_DM/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "53"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -116.84 -20.32 0) (length 5.08)
+        (name "PB15/RTC_REFIN/TIM1_CH3N/TIM12_CH2/TIM8_CH3N/USART1_RX/SPI2_MOSI/I2S2_SDO/DFSDM_CKIN2/UART4_CTS/SDMMC2_D1/OTG_HS_DP/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "54"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -116.84 10.16 0) (length 5.08)
+        (name "PB3/JTDO/TRACESWO/TIM2_CH2/HRTIM_FLT4/SPI1_SCK/I2S1_CK/SPI3_SCK/I2S3_CK/SPI6_SCK/SDMMC2_D2/UART7_RX/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "89"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -116.84 7.62 0) (length 5.08)
+        (name "PB4/NJTRST/TIM16_BKIN/TIM3_CH1/HRTIM_EEV6/SPI1_MISO/I2S1_SDI/SPI3_MISO/I2S3_SDI/SPI2_NSS/I2S2_WS/SPI6_MISO/SDMMC2_D3/UART7_TX/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "90"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -116.84 5.08 0) (length 5.08)
+        (name "PB5/TIM17_BKIN/TIM3_CH2/HRTIM_EEV7/I2C1_SMBA/SPI1_MOSI/I2S1_SDO/I2C4_SMBA/SPI3_MOSI/I2S3_SDO/SPI6_MOSI/FDCAN2_RX/OTG_HS_ULPI_D7/ETH_PPS_OUT/FMC_SDCKE1/DCMI_D10/UART5_RX/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "91"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -116.84 2.54 0) (length 5.08)
+        (name "PB6/TIM16_CH1N/TIM4_CH1/HRTIM_EEV8/I2C1_SCL/HDMI_CEC/I2C4_SCL/USART1_TX/LPUART1_TX/FDCAN2_TX/QUADSPI_BK1_NCS/DFSDM_DATIN5/FMC_SDNE1/DCMI_D5/UART5_TX/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "92"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -116.84 0.0 0) (length 5.08)
+        (name "PB7/TIM17_CH1N/TIM4_CH2/HRTIM_EEV9/I2C1_SDA/I2C4_SDA/USART1_RX/LPUART1_RX/FDCAN2_TXFD_MODE/DFSDM_CKIN5/FMC_NL/DCMI_VSYNC/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "93"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -116.84 -2.54 0) (length 5.08)
+        (name "PB8/TIM16_CH1/TIM4_CH3/DFSDM_CKIN7/I2C1_SCL/I2C4_SCL/SDMMC1_CKIN/UART4_RX/FDCAN1_RX/SDMMC2_D4/ETH_MII_TXD3/SDMMC1_D4/DCMI_D6/LCD_B6/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "95"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -116.84 -5.08 0) (length 5.08)
+        (name "PB9/TIM17_CH1/TIM4_CH4/DFSDM_DATIN7/I2C1_SDA/SPI2_NSS/I2S2_WS/I2C4_SDA/SDMMC1_CDIR/UART4_TX/FDCAN1_TX/SDMMC2_D5/I2C4_SMBA/SDMMC1_D5/DCMI_D7/LCD_B7/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "96"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "STM32H750VBT6_3_0"
+      (rectangle (start -106.68 -22.86) (end 109.22 20.32)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin bidirectional line (at -111.76 -15.24 0) (length 5.08)
+        (name "PC13/EVENTOUT/RTC_TAMP_1/RTC_TS/WKUP2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -111.76 -17.78 0) (length 5.08)
+        (name "PC14-OSC32_IN/EVENTOUT/OSC32_IN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -111.76 -20.32 0) (length 5.08)
+        (name "PC15-OSC32_OUT/EVENTOUT/OSC32_OUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -111.76 17.78 0) (length 5.08)
+        (name "PC0/DFSDM_CKIN0/DFSDM_DATIN4/SAI2_FS_B/OTG_HS_ULPI_STP/FMC_SDNWE/LCD_R5/EVENTOUT/ADC123_INP10"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -111.76 15.24 0) (length 5.08)
+        (name "PC1/TRACED0/SAI1_D1/DFSDM_DATIN0/DFSDM_CKIN4/SPI2_MOSI/I2S2_SDO/SAI1_SD_A/SAI4_SD_A/SDMMC2_CK/SAI4_D1/ETH_MDC/MDIOS_MDC/EVENTOUT/ADC123_INN10/ADC123_INP11/RTC_TAMP_3/WKUP5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -111.76 12.7 0) (length 5.08)
+        (name "PC2_C/ADC3_INN1/ADC3_INP0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -111.76 10.16 0) (length 5.08)
+        (name "PC3_C/ADC3_INP1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -111.76 7.62 0) (length 5.08)
+        (name "PC4/DFSDM_CKIN2/I2S1_MCK/SPDIFRX_IN2/ETH_MII_RXD0/ETH_RMII_RXD0/FMC_SDNE0/EVENTOUT/ADC12_INP4/OPAMP1_VOUT/COMP_1_INM"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "32"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -111.76 5.08 0) (length 5.08)
+        (name "PC5/SAI1_D3/DFSDM_DATIN2/SPDIFRX_IN3/SAI4_D3/ETH_MII_RXD1/ETH_RMII_RXD1/FMC_SDCKE0/COMP_1_OUT/EVENTOUT/ADC12_INN4/ADC12_INP8/OPAMP1_VINM"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "33"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -111.76 2.54 0) (length 5.08)
+        (name "PC6/HRTIM_CHA1/TIM3_CH1/TIM8_CH1/DFSDM_CKIN3/I2S2_MCK/USART6_TX/SDMMC1_D0DIR/FMC_NWAIT/SDMMC2_D6/SDMMC1_D6/DCMI_D0/LCD_HSYNC/EVENTOUT/SWPMI_IO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "63"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -111.76 0.0 0) (length 5.08)
+        (name "PC7/TRGIO/HRTIM_CHA2/TIM3_CH2/TIM8_CH2/DFSDM_DATIN3/I2S3_MCK/USART6_RX/SDMMC1_D123DIR/FMC_NE1/SDMMC2_D7/SWPMI_TX/SDMMC1_D7/DCMI_D1/LCD_G6/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "64"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -111.76 -2.54 0) (length 5.08)
+        (name "PC8/TRACED1/HRTIM_CHB1/TIM3_CH3/TIM8_CH3/USART6_CK/UART5_RTS/FMC_NE2/FMC_NCE/SWPMI_RX/SDMMC1_D0/DCMI_D2/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "65"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -111.76 -5.08 0) (length 5.08)
+        (name "PC9/MCO2/TIM3_CH4/TIM8_CH4/I2C3_SDA/I2S_CKIN/UART5_CTS/QUADSPI_BK1_IO0/LCD_G3/SWPMI_SUSPEND/SDMMC1_D1/DCMI_D3/LCD_B2/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "66"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -111.76 -7.62 0) (length 5.08)
+        (name "PC10/HRTIM_EEV1/DFSDM_CKIN5/SPI3_SCK/I2S3_CK/USART3_TX/UART4_TX/QUADSPI_BK1_IO1/SDMMC1_D2/DCMI_D8/LCD_R2/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "78"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -111.76 -10.16 0) (length 5.08)
+        (name "PC11/HRTIM_FLT2/DFSDM_DATIN5/SPI3_MISO/I2S3_SDI/USART3_RX/UART4_RX/QUADSPI_BK2_NCS/SDMMC1_D3/DCMI_D4/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "79"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -111.76 -12.7 0) (length 5.08)
+        (name "PC12/TRACED3/HRTIM_EEV2/SPI3_MOSI/I2S3_SDO/USART3_CK/UART5_TX/SDMMC1_CK/DCMI_D9/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "80"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "STM32H750VBT6_4_0"
+      (rectangle (start -99.06 -22.86) (end 93.98 20.32)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin bidirectional line (at -104.14 -2.54 0) (length 5.08)
+        (name "PD8/DFSDM_CKIN3/SAI3_SCK_B/USART3_TX/SPDIFRX_IN1/FMC_D13/FMC_DA13/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "55"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -104.14 -5.08 0) (length 5.08)
+        (name "PD9/DFSDM_DATIN3/SAI3_SD_B/USART3_RX/FDCAN2_RXFD_MODE/FMC_D14/FMC_DA14/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "56"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -104.14 -7.62 0) (length 5.08)
+        (name "PD10/DFSDM_CKOUT/SAI3_FS_B/USART3_CK/FDCAN2_TXFD_MODE/FMC_D15/FMC_DA15/LCD_B3/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "57"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -104.14 -10.16 0) (length 5.08)
+        (name "PD11/LPTIM2_IN2/I2C4_SMBA/USART3_CTS_NSS/QUADSPI_BK1_IO0/SAI2_SD_A/FMC_A16/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "58"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -104.14 -12.7 0) (length 5.08)
+        (name "PD12/LPTIM1_IN1/TIM4_CH1/LPTIM2_IN1/I2C4_SCL/USART3_RTS/QUADSPI_BK1_IO1/SAI2_FS_A/FMC_A17/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "59"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -104.14 -15.24 0) (length 5.08)
+        (name "PD13/LPTIM1_OUT/TIM4_CH2/I2C4_SDA/QUADSPI_BK1_IO3/SAI2_SCK_A/FMC_A18/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "60"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -104.14 -17.78 0) (length 5.08)
+        (name "PD14/TIM4_CH3/SAI3_MCLK_B/UART8_CTS/FMC_D0/FMC_DA0/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "61"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -104.14 -20.32 0) (length 5.08)
+        (name "PD15/TIM4_CH4/SAI3_MCLK_A/UART8_RTS/FMC_D1/FMC_DA1/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "62"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -104.14 17.78 0) (length 5.08)
+        (name "PD0/DFSDM_CKIN6/SAI3_SCK_A/UART4_RX/FDCAN1_RX/FMC_D2/FMC_DA2/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "81"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -104.14 15.24 0) (length 5.08)
+        (name "PD1/DFSDM_DATIN6/SAI3_SD_A/UART4_TX/FDCAN1_TX/FMC_D3/FMC_DA3/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "82"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -104.14 12.7 0) (length 5.08)
+        (name "PD2/TRACED2/TIM3_ETR/UART5_RX/SDMMC1_CMD/DCMI_D11/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "83"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -104.14 10.16 0) (length 5.08)
+        (name "PD3/DFSDM_CKOUT/SPI2_SCK/I2S2_CK/USART2_CTS_NSS/FMC_CLK/DCMI_D5/LCD_G7/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "84"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -104.14 7.62 0) (length 5.08)
+        (name "PD4/HRTIM_FLT3/SAI3_FS_A/USART2_RTS/FDCAN1_RXFD_MODE/FMC_NOE/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "85"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -104.14 5.08 0) (length 5.08)
+        (name "PD5/HRTIM_EEV3/USART2_TX/FDCAN1_TXFD_MODE/FMC_NWE/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "86"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -104.14 2.54 0) (length 5.08)
+        (name "PD6/SAI1_D1/DFSDM_CKIN4/DFSDM_DATIN1/SPI3_MOSI/I2S3_SDO/SAI1_SD_A/USART2_RX/SAI4_SD_A/FDCAN2_RXFD_MODE/SAI4_D1/SDMMC2_CK/FMC_NWAIT/DCMI_D10/LCD_B2/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "87"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -104.14 0.0 0) (length 5.08)
+        (name "PD7/DFSDM_DATIN4/SPI1_MOSI/I2S1_SDO/DFSDM_CKIN1/USART2_CK/SPDIFRX_IN0/SDMMC2_CMD/FMC_NE1/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "88"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "STM32H750VBT6_5_0"
+      (rectangle (start -83.82 -22.86) (end 81.28 20.32)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin bidirectional line (at -88.9 12.7 0) (length 5.08)
+        (name "PE2/TRACECLK/SAI1_CK1/SPI4_SCK/SAI1_MCLK_A/SAI4_MCLK_A/QUADSPI_BK1_IO2/SAI4_CK1/ETH_MII_TXD3/FMC_A23/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -88.9 10.16 0) (length 5.08)
+        (name "PE3/TRACED0/TIM15_BKIN/SAI1_SD_B/SAI4_SD_B/FMC_A19/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -88.9 7.62 0) (length 5.08)
+        (name "PE4/TRACED1/SAI1_D2/DFSDM_DATIN3/TIM15_CH1N/SPI4_NSS/SAI1_FS_A/SAI4_FS_A/SAI4_D2/FMC_A20/DCMI_D4/LCD_B0/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -88.9 5.08 0) (length 5.08)
+        (name "PE5/TRACED2/SAI1_CK2/DFSDM_CKIN3/TIM15_CH1/SPI4_MISO/SAI1_SCK_A/SAI4_SCK_A/SAI4_CK2/FMC_A21/DCMI_D6/LCD_G0/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -88.9 2.54 0) (length 5.08)
+        (name "PE6/TRACED3/TIM1_BKIN2/SAI1_D1/TIM15_CH2/SPI4_MOSI/SAI1_SD_A/SAI4_SD_A/SAI4_D1/SAI2_MCK_B/TIM1_BKIN2_COMP12/FMC_A22/DCMI_D7/LCD_G1/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -88.9 0.0 0) (length 5.08)
+        (name "PE7/TIM1_ETR/DFSDM_DATIN2/UART7_RX/QUADSPI_BK2_IO0/FMC_D4/FMC_DA4/EVENTOUT/OPAMP2_VOUT/COMP_2_INM"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "37"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -88.9 -2.54 0) (length 5.08)
+        (name "PE8/TIM1_CH1N/DFSDM_CKIN2/UART7_TX/QUADSPI_BK2_IO1/FMC_D5/FMC_DA5/COMP_2_OUT/EVENTOUT/OPAMP2_VINM"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "38"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -88.9 -5.08 0) (length 5.08)
+        (name "PE9/TIM1_CH1/DFSDM_CKOUT/UART7_RTS/QUADSPI_BK2_IO2/FMC_D6/FMC_DA6/EVENTOUT/OPAMP2_VINP/COMP_2_INP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "39"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -88.9 -7.62 0) (length 5.08)
+        (name "PE10/TIM1_CH2N/DFSDM_DATIN4/UART7_CTS/QUADSPI_BK2_IO3/FMC_D7/FMC_DA7/EVENTOUT/COMP_2_INM"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "40"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -88.9 -10.16 0) (length 5.08)
+        (name "PE11/TIM1_CH2/DFSDM_CKIN4/SPI4_NSS/SAI2_SD_B/FMC_D8/FMC_DA8/LCD_G3/EVENTOUT/COMP_2_INP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "41"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -88.9 -12.7 0) (length 5.08)
+        (name "PE12/TIM1_CH3N/DFSDM_DATIN5/SPI4_SCK/SAI2_SCK_B/FMC_D9/FMC_DA9/COMP_1_OUT/LCD_B4/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "42"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -88.9 -15.24 0) (length 5.08)
+        (name "PE13/TIM1_CH3/DFSDM_CKIN5/SPI4_MISO/SAI2_FS_B/FMC_D10/FMC_DA10/COMP_2_OUT/LCD_DE/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "43"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -88.9 -17.78 0) (length 5.08)
+        (name "PE14/TIM1_CH4/SPI4_MOSI/SAI2_MCK_B/FMC_D11/FMC_DA11/LCD_CLK/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "44"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -88.9 -20.32 0) (length 5.08)
+        (name "PE15/TIM1_BKIN/HDMI__TIM1_BKIN/FMC_D12/FMC_DA12/TIM1_BKIN_COMP12/LCD_R7/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "45"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -88.9 17.78 0) (length 5.08)
+        (name "PE0/LPTIM1_ETR/TIM4_ETR/HRTIM_SCIN/LPTIM2_ETR/UART8_RX/FDCAN1_RXFD_MODE/SAI2_MCK_A/FMC_NBL0/DCMI_D2/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "97"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -88.9 15.24 0) (length 5.08)
+        (name "PE1/LPTIM1_IN2/HRTIM_SCOUT/UART8_TX/FDCAN1_TXFD_MODE/FMC_NBL1/DCMI_D3/EVENTOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "98"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

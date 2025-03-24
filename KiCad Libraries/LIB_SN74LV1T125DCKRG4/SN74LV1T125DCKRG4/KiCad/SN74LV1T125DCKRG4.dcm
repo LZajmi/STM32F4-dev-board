@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74LV1T125DCKRG4
+D Single Power Supply, Single BUFFER GATE w/ 3-State Output (active low enable)
+K
+F http://www.ti.com/lit/gpn/sn74lv1t125
+$ENDCMP
+#
+#End Doc Library

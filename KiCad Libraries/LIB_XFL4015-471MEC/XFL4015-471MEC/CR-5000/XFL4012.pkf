@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "XFL4012"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "XFL4012")
+        (spec "default")
+    )
+)

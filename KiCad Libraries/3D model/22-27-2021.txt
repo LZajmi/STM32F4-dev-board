@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-04062020-056269";"";
+"REFERENCE";"22-27-2021";"";
+"TraceParts.PartTitle";"2way straight PCB header w/friction lock";"";
+"TraceParts.InstanceId";"90-04062020-0562692N3XX9WWY2MK673V115V3T3RA";"";
+"DESIGN";"2way straight PCB header w/friction lock";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"SUPPLIER";"Molex";"";
+"TraceParts.PartVersion";"1.0.0";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.ClassPath";"MOLEX:90-04062020-056269";"";

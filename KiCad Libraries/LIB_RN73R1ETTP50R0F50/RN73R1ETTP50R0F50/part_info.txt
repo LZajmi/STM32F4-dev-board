@@ -1,0 +1,9 @@
+Manufacturer=KOA Speer
+PartNumber=RN73R1ETTP50R0F50
+PartCategory=Resistor
+PackageCategory=Resistor Chip
+PinCount=2
+Version=1.1
+Released=2024-06-19 04:26:47
+Downloaded=2024-07-20 23:37:43
+3D=Y

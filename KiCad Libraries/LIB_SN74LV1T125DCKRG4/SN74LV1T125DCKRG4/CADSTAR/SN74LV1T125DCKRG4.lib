@@ -1,0 +1,16 @@
+.SN74LV1T125DCKRG4 :1 ;Single Power Supply, Single BUFFER GATE w/ 3-State Output (active low enable)
+SOT65P210X110-5N
+*STM IC
+*NGS
+*PLB 1="'OE'" 2="A" 3="GND" 4="Y" 5="VCC"
+*MXP 5
+*DFN SN74LV1T125DCKRG4
+~!Mouser Part Number (595-74LV1T125DCKRG4)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LV1T125DCKRG4?qs=qSfuJ%252Bfl%2Fd6epiZsEhD6Mg%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (SN74LV1T125DCKRG4)
+~!Link Datasheet (http://www.ti.com/lit/gpn/sn74lv1t125)
+~!Height (1.1mm)
+~!3D_Model (SN74LV1T125DCKRG4)
+SN74LV1T125DCKRG4
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

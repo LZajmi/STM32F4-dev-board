@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CRCW0402220RFKEDC
+D Thick Film Resistors - SMD 1/16watt 220ohms 1% Commercial Use
+K
+F http://www.vishay.com/docs/28773/crcwce3.pdf
+$ENDCMP
+#
+#End Doc Library

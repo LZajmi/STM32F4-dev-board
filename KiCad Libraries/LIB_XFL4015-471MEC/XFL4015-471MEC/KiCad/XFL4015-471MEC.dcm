@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XFL4015-471MEC
+D Fixed Inductors 0.47uH 20% 11.2A 8.36mOhms AEC-Q200
+K
+F https://www.coilcraft.com/pdfs/xfl4015.pdf
+$ENDCMP
+#
+#End Doc Library

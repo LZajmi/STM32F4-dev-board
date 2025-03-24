@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-06082015-071399";"";
+"REFERENCE";"B3AL-1003P";"";
+"TraceParts.PartTitle";"Long-stroke Tactile Switch (SMT) - B3AL";"";
+"TraceParts.InstanceId";"10-06082015-0713998J4ABZMYR4CSF2M1RG8F1E78D";"";
+"DESIGN";"Long-stroke Tactile Switch (SMT) - B3AL-1003P";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"SUPPLIER";"OMRON";"";
+"TraceParts.PartVersion";"1.0.2";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.ClassPath";"OMRON:10-06082015-071399";"";

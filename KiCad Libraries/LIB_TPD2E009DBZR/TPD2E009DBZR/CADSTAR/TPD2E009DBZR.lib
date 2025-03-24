@@ -1,0 +1,16 @@
+.TPD2E009DBZR :1 ;2-Channel ESD Protection Array for High-Speed Data Interfaces 
+SOT95P237X112-3N
+*STM IC
+*NGS
+*PLB 1="D+" 2="D-" 3="GND"
+*MXP 3
+*DFN TPD2E009DBZR
+~!Mouser Part Number (595-TPD2E009DBZR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD2E009DBZR?qs=XGzIaZb%2FFYIsL3UFh35JpQ%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPD2E009DBZR)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-7/sf-000145380.pdf)
+~!Height (1.12mm)
+~!3D_Model (TPD2E009DBZR)
+TPD2E009DBZR
+1.1!U 2.1!U 3.1!G 
